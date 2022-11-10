@@ -3316,3 +3316,89 @@ Scale3D: 1.000000 1.000000 1.000000
 [2022.11.10-01.33.17:613][581]LogFileHelpers: Saving map 'MazeLevel' took 0.024
 [2022.11.10-01.33.17:631][581]AssetCheck: New page: Asset Save: MazeLevel
 [2022.11.10-01.33.17:631][581]LogContentValidation: Display: Validating World /Game/Maps/MazeLevel.MazeLevel
+[2022.11.10-01.38.03:912][909]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2022.11.10-01.38.03:912][909]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2022.11.10-01.38.03:913][909]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Maps/MazeLevel.MazeLevel:PersistentLevel.StaticMeshActor_52
+[2022.11.10-01.38.03:913][909]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Maps/MazeLevel.MazeLevel:PersistentLevel.StaticMeshActor_52
+[2022.11.10-01.39.41:467][258]Cmd: TRANSACTION UNDO
+[2022.11.10-01.39.41:467][258]LogEditorTransaction: Undo Move Elements
+[2022.11.10-01.39.59:044][186]Cmd: EDIT COPY
+[2022.11.10-01.40.01:390][424]Cmd: EDIT PASTE TO=HERE
+[2022.11.10-01.40.26:677][360]Cmd: EDIT COPY
+[2022.11.10-01.40.30:268][743]Cmd: EDIT PASTE TO=HERE
+[2022.11.10-01.41.37:806][426]Cmd: EDIT COPY
+[2022.11.10-01.41.40:563][710]Cmd: EDIT PASTE
+[2022.11.10-01.41.42:325][911]Cmd: TRANSACTION UNDO
+[2022.11.10-01.41.42:325][911]LogEditorTransaction: Undo Paste
+[2022.11.10-01.41.46:061][239]Cmd: EDIT PASTE TO=HERE
+[2022.11.10-01.41.51:580][835]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.11.10-01.41.51:585][835]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.10-01.41.51:585][835]PIE: New page: PIE session: MazeLevel (Nov 9, 2022, 11:41:51 AM)
+[2022.11.10-01.41.51:621][835]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MazeLevel
+[2022.11.10-01.41.51:625][835]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003871s)
+[2022.11.10-01.41.51:625][835]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MazeLevel.MazeLevel to /Game/Maps/UEDPIE_0_MazeLevel.MazeLevel (0.003966s)
+[2022.11.10-01.41.51:625][835]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.11.10-01.41.51:625][835]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.10-01.41.51:626][835]LogAIModule: Creating AISystem for world MazeLevel
+[2022.11.10-01.41.51:626][835]LogPlayLevel: PIE: World Init took: (0.000831s)
+[2022.11.10-01.41.51:635][835]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2022.11.10-01.41.51:638][835]LogAudio: Display: Creating Audio Device:                 Id: 44, Scope: Unique, Realtime: True
+[2022.11.10-01.41.51:638][835]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.10-01.41.51:638][835]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.10-01.41.51:638][835]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.10-01.41.51:638][835]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.10-01.41.51:638][835]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.10-01.41.51:638][835]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.10-01.41.51:638][835]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.10-01.41.51:638][835]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.10-01.41.51:638][835]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.10-01.41.51:638][835]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.10-01.41.51:638][835]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.10-01.41.51:640][835]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.10-01.41.51:656][835]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2022.11.10-01.41.51:656][835]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.10-01.41.51:656][835]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.10-01.41.51:656][835]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.10-01.41.51:657][835]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=44
+[2022.11.10-01.41.51:657][835]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=44
+[2022.11.10-01.41.51:658][835]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=44
+[2022.11.10-01.41.51:658][835]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=44
+[2022.11.10-01.41.51:658][835]LogInit: FAudioDevice initialized.
+[2022.11.10-01.41.51:658][835]LogAudio: Display: Audio Device (ID: 44) registered with world 'MazeLevel'.
+[2022.11.10-01.41.51:667][835]LogLoad: Game class is 'GM_Speedball_C'
+[2022.11.10-01.41.51:668][835]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MazeLevel.MazeLevel up for play (max tick rate 0) at 2022.11.09-18.41.51
+[2022.11.10-01.41.51:669][835]LogWorld: Bringing up level for play took: 0.001533
+[2022.11.10-01.41.51:670][835]LogOnline: OSS: Created online subsystem instance for: :Context_47
+[2022.11.10-01.41.51:671][835]PIE: Server logged in
+[2022.11.10-01.41.51:672][835]PIE: Play in editor total start time 0.087 seconds.
+[2022.11.10-01.41.52:701][944]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.10-01.41.52:701][944]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MazeLevel
+[2022.11.10-01.41.52:702][944]LogWorld: UWorld::CleanupWorld for MazeLevel, bSessionEnded=true, bCleanupResources=true
+[2022.11.10-01.41.52:702][944]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.10-01.41.52:712][944]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.10-01.41.52:714][944]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.10-01.41.52:719][944]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.10-01.41.52:719][944]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=44
+[2022.11.10-01.41.52:720][944]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=44
+[2022.11.10-01.41.52:723][944]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.10-01.41.52:724][944]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2022.11.10-01.41.52:807][946]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2022.11.10-01.41.56:102][308]Cmd: SELECT NONE
+[2022.11.10-01.42.41:018][574]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2022.11.10-01.42.41:047][574]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2022.11.10-01.42.41:056][574]LogSavePackage: Moving output files for package: /Game/Maps/MazeLevel
+[2022.11.10-01.42.41:057][574]LogSavePackage: Moving '../../../../../../Users/josed/Documents/GitHub/BernaS_DuenasJ/DownloadedBallGame/Saved/MazeLevel58ADCB644CEC96D094C813B8B1335C5E.tmp' to '../../../../../../Users/josed/Documents/GitHub/BernaS_DuenasJ/DownloadedBallGame/Content/Maps/MazeLevel.umap'
+[2022.11.10-01.42.41:066][574]LogFileHelpers: No new changes to save!
+[2022.11.10-01.42.41:066][574]LogFileHelpers: Saving map 'MazeLevel' took 0.024
+[2022.11.10-01.42.41:095][574]AssetCheck: New page: Asset Save: MazeLevel
+[2022.11.10-01.42.41:095][574]LogContentValidation: Display: Validating World /Game/Maps/MazeLevel.MazeLevel
+[2022.11.10-01.42.44:763][988]Cmd: SELECT NONE
+[2022.11.10-01.42.46:567][192]Cmd: SELECT NONE
+[2022.11.10-01.44.31:724][445]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2022.11.10-01.44.31:758][445]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2022.11.10-01.44.31:769][445]LogSavePackage: Moving output files for package: /Game/Maps/MazeLevel
+[2022.11.10-01.44.31:769][445]LogSavePackage: Moving '../../../../../../Users/josed/Documents/GitHub/BernaS_DuenasJ/DownloadedBallGame/Saved/MazeLevelD99E438644089C88A826B386F466E356.tmp' to '../../../../../../Users/josed/Documents/GitHub/BernaS_DuenasJ/DownloadedBallGame/Content/Maps/MazeLevel.umap'
+[2022.11.10-01.44.31:778][445]LogFileHelpers: No new changes to save!
+[2022.11.10-01.44.31:778][445]LogFileHelpers: Saving map 'MazeLevel' took 0.024
+[2022.11.10-01.44.31:814][445]AssetCheck: New page: Asset Save: MazeLevel
+[2022.11.10-01.44.31:814][445]LogContentValidation: Display: Validating World /Game/Maps/MazeLevel.MazeLevel
