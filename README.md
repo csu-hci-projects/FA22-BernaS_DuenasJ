@@ -2,6 +2,7 @@
 **Treasure Hunt**  
 **BernaS_DuenasJ**  
   
+**HW2**  
 **Controls**  
 The controls are the same as the default VRTemplate in Unreal using the Oculus Touch Controllers, so if you are familiar with that, this should feel pretty natural. If not, there aren’t many controls to learn.
 
@@ -26,15 +27,15 @@ The controls are the same as the default VRTemplate in Unreal using the Oculus T
 
 **Playing the game**  
 	When teleporting around the map, you might stumble upon the chests. The chests emit a humming sound, which you can use to pinpoint their locations. If you are still having trouble finding the chests, you can open the menu and select the Ping Chests option. This will make every chest on the map emit a bell sound, which should help you get a general idea of where the closest one is. From the menu you are also able to see how many chests you have collected out of the total number of chests. If you collect all the chests you will automatically be teleported to the win area, which is a tower outside of the normal play area. You will have another menu where you can choose to restart the game, or quit the game. To select the option you want, simply grab the block of the option you want. 
-	If you happen to get stuck somewhere in the map, or simply would like to go back to the beginning of the map, in the menu in the Teleport to Spawn button which will teleport you to the starting area that you began the map at. This does not reset any progress, but simply moves you across the map.
-
-
-
-
-
-
-
-
+	If you happen to get stuck somewhere in the map, or simply would like to go back to the beginning of the map, in the menu in the Teleport to Spawn button which will teleport you to the starting area that you began the map at. This does not reset any progress, but simply moves you across the map.  
+__________________________________________________________________________  
+|  
+|  
+|  
+|  
+|  
+|  
+________________________________________________________________
 HW1 README
 - **Starting the Game**: Once you start playing in the editor, you start at the beginning of whatever level you were in inside the editor. Press “5” to start a new game, which will load the first level and reset your score and difficulty. To stop the game, you are able to press ”6”.
 - **Playing the game**: You control the ball with WASD/ARROWS and the mouse. The mouse is able to rotate the camera around the ball and zoom in and out with the SCROLL WHEEL. The ball will move in the direction the camera is looking (W/UP is always towards where the camera is pointing). SPACEBAR is jump, which you can only do once, until you hit a surface again. Pressing “0” or LEFT MOUSE BUTTON will stop the ball’s rotation and lock it in place, if done while in air, the ball will slowly float downwards. On most levels, you are able to toggle “Hamster Mode” by pressing “H”. This will put the camera inside the ball, as if you are a hamster inside a ball. Pressing “J” will toggle “Top-Down Mode”. This will put the camera directly above the ball. This mode is forced on level_3, and will be automatically turned off when you reach level 4.
